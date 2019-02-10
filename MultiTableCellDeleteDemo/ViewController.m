@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CollectionViewController.h"
+#import "Others/UIView+CWNView.m"
 
 @interface ViewController ()
 
@@ -16,6 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CollectionViewController *vc = [CollectionViewController new];
+    [self addChildViewController:vc];
+    [self.view addSubview:vc.view];
+    
+    [vc.view cwn_makeConstraints:^(UIView *maker) {
+        maker.edgeInsetsToSuper(UIEdgeInsetsMake(0, 0, 0, 0));
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

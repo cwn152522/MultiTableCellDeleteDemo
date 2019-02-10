@@ -15,6 +15,16 @@
 		041C181F221017D80056BE77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C181E221017D80056BE77 /* main.m */; };
 		041C1829221017D90056BE77 /* MultiTableCellDeleteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1828221017D90056BE77 /* MultiTableCellDeleteDemoTests.m */; };
 		041C1834221017D90056BE77 /* MultiTableCellDeleteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1833221017D90056BE77 /* MultiTableCellDeleteDemoUITests.m */; };
+		041C184D221018140056BE77 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C1844221018140056BE77 /* CollectionViewController.xib */; };
+		041C184E221018140056BE77 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1845221018140056BE77 /* CollectionViewController.m */; };
+		041C184F221018140056BE77 /* CollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1847221018140056BE77 /* CollectionModel.m */; };
+		041C1850221018140056BE77 /* CollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C184B221018140056BE77 /* CollectionTableViewCell.m */; };
+		041C1851221018140056BE77 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C184C221018140056BE77 /* CollectionTableViewCell.xib */; };
+		041C18542210183A0056BE77 /* UITableViewCell+ReuseID.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C18532210183A0056BE77 /* UITableViewCell+ReuseID.m */; };
+		041C1857221018510056BE77 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1856221018510056BE77 /* UITableView+FDTemplateLayoutCell.m */; };
+		041C185A221019950056BE77 /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C1859221019950056BE77 /* NavigationView.m */; };
+		041C185D221019AD0056BE77 /* UIView+CWNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C185C221019AD0056BE77 /* UIView+CWNView.m */; };
+		041C186022101A920056BE77 /* MYImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C185F22101A920056BE77 /* MYImageButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,24 @@
 		041C182F221017D90056BE77 /* MultiTableCellDeleteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTableCellDeleteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C1833221017D90056BE77 /* MultiTableCellDeleteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTableCellDeleteDemoUITests.m; sourceTree = "<group>"; };
 		041C1835221017D90056BE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041C1843221018140056BE77 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		041C1844221018140056BE77 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		041C1845221018140056BE77 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		041C1847221018140056BE77 /* CollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionModel.m; sourceTree = "<group>"; };
+		041C1848221018140056BE77 /* CollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionModel.h; sourceTree = "<group>"; };
+		041C184A221018140056BE77 /* CollectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTableViewCell.h; sourceTree = "<group>"; };
+		041C184B221018140056BE77 /* CollectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTableViewCell.m; sourceTree = "<group>"; };
+		041C184C221018140056BE77 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		041C18522210183A0056BE77 /* UITableViewCell+ReuseID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ReuseID.h"; sourceTree = "<group>"; };
+		041C18532210183A0056BE77 /* UITableViewCell+ReuseID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ReuseID.m"; sourceTree = "<group>"; };
+		041C1855221018510056BE77 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		041C1856221018510056BE77 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		041C1858221019950056BE77 /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		041C1859221019950056BE77 /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
+		041C185B221019AD0056BE77 /* UIView+CWNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CWNView.h"; sourceTree = "<group>"; };
+		041C185C221019AD0056BE77 /* UIView+CWNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CWNView.m"; sourceTree = "<group>"; };
+		041C185E22101A920056BE77 /* MYImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYImageButton.h; sourceTree = "<group>"; };
+		041C185F22101A920056BE77 /* MYImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYImageButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +129,8 @@
 		041C180E221017D60056BE77 /* MultiTableCellDeleteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				041C1841221018140056BE77 /* Collection */,
+				041C186122101DA10056BE77 /* Others */,
 				041C180F221017D60056BE77 /* AppDelegate.h */,
 				041C1810221017D60056BE77 /* AppDelegate.m */,
 				041C1812221017D60056BE77 /* ViewController.h */,
@@ -130,6 +160,62 @@
 				041C1835221017D90056BE77 /* Info.plist */,
 			);
 			path = MultiTableCellDeleteDemoUITests;
+			sourceTree = "<group>";
+		};
+		041C1841221018140056BE77 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				041C1842221018140056BE77 /* Controller */,
+				041C1846221018140056BE77 /* Model */,
+				041C1849221018140056BE77 /* View */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		041C1842221018140056BE77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041C1843221018140056BE77 /* CollectionViewController.h */,
+				041C1845221018140056BE77 /* CollectionViewController.m */,
+				041C1844221018140056BE77 /* CollectionViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		041C1846221018140056BE77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041C1848221018140056BE77 /* CollectionModel.h */,
+				041C1847221018140056BE77 /* CollectionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041C1849221018140056BE77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041C184A221018140056BE77 /* CollectionTableViewCell.h */,
+				041C184B221018140056BE77 /* CollectionTableViewCell.m */,
+				041C184C221018140056BE77 /* CollectionTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041C186122101DA10056BE77 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				041C18522210183A0056BE77 /* UITableViewCell+ReuseID.h */,
+				041C18532210183A0056BE77 /* UITableViewCell+ReuseID.m */,
+				041C1855221018510056BE77 /* UITableView+FDTemplateLayoutCell.h */,
+				041C1856221018510056BE77 /* UITableView+FDTemplateLayoutCell.m */,
+				041C1858221019950056BE77 /* NavigationView.h */,
+				041C1859221019950056BE77 /* NavigationView.m */,
+				041C185B221019AD0056BE77 /* UIView+CWNView.h */,
+				041C185C221019AD0056BE77 /* UIView+CWNView.m */,
+				041C185E22101A920056BE77 /* MYImageButton.h */,
+				041C185F22101A920056BE77 /* MYImageButton.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C1851221018140056BE77 /* CollectionTableViewCell.xib in Resources */,
+				041C184D221018140056BE77 /* CollectionViewController.xib in Resources */,
 				041C181C221017D80056BE77 /* LaunchScreen.storyboard in Resources */,
 				041C1819221017D80056BE77 /* Assets.xcassets in Resources */,
 				041C1817221017D60056BE77 /* Main.storyboard in Resources */,
@@ -262,9 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C184E221018140056BE77 /* CollectionViewController.m in Sources */,
+				041C186022101A920056BE77 /* MYImageButton.m in Sources */,
+				041C1857221018510056BE77 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				041C1850221018140056BE77 /* CollectionTableViewCell.m in Sources */,
 				041C1814221017D60056BE77 /* ViewController.m in Sources */,
+				041C184F221018140056BE77 /* CollectionModel.m in Sources */,
 				041C181F221017D80056BE77 /* main.m in Sources */,
+				041C185D221019AD0056BE77 /* UIView+CWNView.m in Sources */,
+				041C185A221019950056BE77 /* NavigationView.m in Sources */,
 				041C1811221017D60056BE77 /* AppDelegate.m in Sources */,
+				041C18542210183A0056BE77 /* UITableViewCell+ReuseID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
